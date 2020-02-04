@@ -14,7 +14,7 @@
 
 -   Docker
 -   A [discord bot](https://discordapp.com/developers/applications/) token
--   A Minecraft server.
+-   A Minecraft server
 -   Node.js (for development)
 
 ## Running from Docker Hub
