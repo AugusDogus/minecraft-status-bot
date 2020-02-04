@@ -1,5 +1,9 @@
 # Minecraft Status Bot
 
+<p align="center">
+<img src="https://i.imgur.com/shFtqm7.png" alt="Logo">
+</p>
+
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/augusdogus/minecraft-status-bot) ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/augusdogus/minecraft-status-bot) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fa067f6879b74528b3a2ed791cb60e3e)](https://www.codacy.com/manual/AugusDogus/minecraft-status-bot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AugusDogus/minecraft-status-bot&amp;utm_campaign=Badge_Grade) ![GitHub](https://img.shields.io/github/license/AugusDogus/minecraft-status-bot?color=blue) [![Beerpay](https://img.shields.io/beerpay/AugusDogus/minecraft-status-bot)](https://beerpay.io/AugusDogus/minecraft-status-bot)
 * * *
 
