@@ -26,4 +26,4 @@
     $ git clone https://github.com/augusdogus/minecraft-status-bot
     $ cd minecraft-status-bot
     $ docker build -t minecraft-status-bot .
-    $ docker run --name minecraft-status-bot -e "token=Disord_Bot_Token_Here" -e "ip=Minecraft_Server_IP_Here" -e "delay=Time_In_Milliseconds" uwu-bot:latest
+    $ docker run --name minecraft-status-bot -e "token=Disord_Bot_Token_Here" -e "ip=Minecraft_Server_IP_Here" -e "delay=Time_In_Milliseconds" minecraft-status-bot:latest
