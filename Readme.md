@@ -27,3 +27,11 @@
     $ cd minecraft-status-bot
     $ docker build -t minecraft-status-bot .
     $ docker run --name minecraft-status-bot -e "token=Disord_Bot_Token_Here" -e "ip=Minecraft_Server_IP_Here" -e "delay=Time_In_Milliseconds" uwu-bot:latest
+
+## License
+
+This project is licensed under the MIT License - see the [License.md](License.md) file for details
+
+## Acknowledgments
+* Thanks to **tedztar**'s initial work on the first [bot](https://github.com/tedztar/mcstatusbot/). 
+* Thanks to **Huskydog9988**'s [revision](https://github.com/Huskydog9988/mcstatusbot) of tedztar's code from which this project was inspired.
