@@ -1,5 +1,3 @@
-# Minecraft Status Bot
-
 <p align="center">
 <img src="https://i.imgur.com/shFtqm7.png" alt="Logo">
 </p>
