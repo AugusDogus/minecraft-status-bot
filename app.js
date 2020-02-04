@@ -17,7 +17,9 @@ const update = () => {
 
 const setActivity = ((status) => {
     client.user.setActivity(status, {type: 'PLAYING'})
-        .catch(console.error);
+        .catch((error) => {
+            console.error(error);
+        });
 });
 
 // Set the refresh refresh rate for the bot's status
