@@ -1,0 +1,23 @@
+{
+  "name": "minecraft-status-bot",
+  "version": "1.2.0",
+  "description": "A discord bot that displays the number of players a server has.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augusdogus/mcstatusbot.git"
+  },
+  "author": "lerokko adapted by Huskydog9988",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/augusdogus/mcstatusbot/issues"
+  },
+  "homepage": "https://github.com/augusdogus/mcstatusbot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "gamedig": "^2.0.20"
+  }
+}
