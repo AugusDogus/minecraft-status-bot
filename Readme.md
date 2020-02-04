@@ -34,7 +34,7 @@
 
 ## License
 
-This project is licensed under the MIT License - see the [License.md](License.md) file for details
+This project is licensed under the MIT License - see the [License](License) file for details
 
 ## Acknowledgments
 * Thanks to **tedztar**'s initial work on the first [bot](https://github.com/tedztar/mcstatusbot/). 
