@@ -15,6 +15,7 @@ const update = () => {
     });
 };
 
+// Send status to discord
 const setActivity = ((status) => {
     client.user.setActivity(status, {type: 'PLAYING'})
         .catch((error) => {
