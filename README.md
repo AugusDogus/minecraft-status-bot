@@ -1,0 +1,2 @@
+# minecraft-status-bot
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/842ab14c032b4cc493d0642bca0fb249)](https://app.codacy.com/manual/AugusDogus/minecraft-status-bot?utm_source=github.com&utm_medium=referral&utm_content=AugusDogus/minecraft-status-bot&utm_campaign=Badge_Grade_Dashboard)
