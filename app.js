@@ -34,7 +34,7 @@ client.on('ready', () => {
     // Set the refresh refresh rate for the bot's status
     client.setInterval(update, process.env.delay || 30000);
     // If we're added to the server, check if the roll exists.
-    let guild = client.guilds.get('546494699997888542');
+    let guild = client.guilds.get(process.env.guild);
     if (guild) {
         if (!guild.roles.find(role => role.name === "Playing Minecraft")) {
             // Add the roll to the server.
