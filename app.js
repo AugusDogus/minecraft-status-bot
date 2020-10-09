@@ -81,9 +81,9 @@ client.on('presenceUpdate', (old, member) => {
     }
     // Check if they stopped playing a game
     if (old.presence.game) {
-        // Check if the game was Minecraft Legends
+        // Check if the game was Minecraft
         if (old.presence.game.name === 'Minecraft') {
-            // Make sure they're not still playing Minecraft Legends
+            // Make sure they're not still playing Minecraft
             if (member.presence.game) {
                 if (member.presence.game.name !== 'Minecraft') {
                     member.removeRole(process.env.roleID);
@@ -94,6 +94,51 @@ client.on('presenceUpdate', (old, member) => {
         }
     }
 });
+
+client.on('message', message => {
+    if (message.content === '!playing') {
+        gamedig.query({
+            type: 'minecraft',
+            host: process.env.ip
+        }).then((state) => {
+            message.channel.send(GeneratePlayersMessage(state.players));
+        }).catch(() => {
+            setActivity('Server is offline');
+        });
+    }
+  });
+
+GeneratePlayersMessage = (playerNames) => {
+    let players = [];
+    for (let i = 0; i < playerNames.length; i++) {
+        if (playerNames[i].name) {
+            players.push(playerNames[i].name);
+        }
+    }
+    let playerText = "";
+    for (let i = 0; i < players.length; i++) {
+        if (playerText === "") {
+            playerText = "• " + players[i];
+        } else {
+            playerText = playerText + "\n • " + players[i];
+        }
+    }
+    return {
+        "embed": {
+          "description": playerText,
+          "url": "https://discordapp.com",
+          "color": 6076508,
+          "timestamp": new Date(),
+          "footer": {
+            "text": "Who's playing?"
+          },
+          "author": {
+            "name": "Online Players",
+            "icon_url": client.user.avatarURL
+          }
+        }
+      }
+}
 
 // Login to discord api
 client.login(process.env.token);
