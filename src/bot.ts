@@ -93,7 +93,7 @@ client.on('presenceUpdate', async (o, newPresence) => {
 updatePresence();
 
 // Loop once every minute
-setInterval(updatePresence, 30000);
+setInterval(updatePresence, Number(process.env.delay) || 30000);
 
 // Update the presence of the bot
 async function updatePresence() {
