@@ -1,8 +1,6 @@
-FROM node:10-alpine
-RUN mkdir -p /home/node/mcbot/node_modules && chown -R node:node /home/node/mcbot
-WORKDIR /home/node/mcbot
+FROM node:16.8.0-alpine
+WORKDIR /usr/src/app
 COPY package*.json ./
-USER node
 RUN npm install
-COPY --chown=node:node . .
-CMD ["node","app.js"]
+COPY . .
+CMD [ "npm", "start" ]

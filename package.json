@@ -1,23 +1,34 @@
 {
-  "name": "minecraft-status-bot",
-  "version": "1.2.0",
-  "description": "A discord bot that displays the number of players a server has.",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/augusdogus/mcstatusbot.git"
-  },
-  "author": "lerokko adapted by Huskydog9988",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/augusdogus/mcstatusbot/issues"
-  },
-  "homepage": "https://github.com/augusdogus/mcstatusbot#readme",
-  "dependencies": {
-    "discord.js": "^11.5.1",
-    "gamedig": "^2.0.20"
-  }
+	"name": "minecraft-status-bot",
+	"version": "2.0.0",
+	"description": "A discord bot that displays the number of players a server has.",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"start": "npm run build && node -r tsconfig-paths/register build/bot",
+		"lint": "eslint src --ext .ts",
+		"lint:fix": "eslint src --ext .ts --fix",
+		"prettier": "prettier --write **/*.{ts,js,json,yml,yaml}",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/augusdogus/mcstatusbot.git"
+	},
+	"author": "AugusDogus, lerokko, Huskydog9988",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/augusdogus/mcstatusbot/issues"
+	},
+	"homepage": "https://github.com/augusdogus/mcstatusbot#readme",
+	"dependencies": {
+		"discord.js": "^13.3.1",
+		"dotenv": "^10.0.0",
+		"gamedig": "^3.0.7"
+	},
+	"devDependencies": {
+		"@types/gamedig": "^3.0.1",
+		"tsconfig-paths": "^3.12.0",
+		"typescript": "^4.5.2"
+	}
 }
