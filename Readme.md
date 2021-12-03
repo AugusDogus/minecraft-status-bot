@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/shFtqm7.png" alt="Logo">
 </p>
 
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/augusdogus/minecraft-status-bot) ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/augusdogus/minecraft-status-bot) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fa067f6879b74528b3a2ed791cb60e3e)](https://www.codacy.com/manual/AugusDogus/minecraft-status-bot?utm_source=github.com&utm_medium=referral&utm_content=AugusDogus/minecraft-status-bot&utm_campaign=Badge_Grade) ![GitHub](https://img.shields.io/github/license/AugusDogus/minecraft-status-bot?color=blue) [![ko-fi](https://img.shields.io/badge/Buy%20me%20a-Coffee-brightgreen)](https://ko-fi.com/augusdogus)
+[![Docker Image CI](https://github.com/AugusDogus/minecraft-status-bot/actions/workflows/docker-image.yml/badge.svg)](https://github.com/AugusDogus/minecraft-status-bot/actions/workflows/docker-image.yml) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fa067f6879b74528b3a2ed791cb60e3e)](https://www.codacy.com/manual/AugusDogus/minecraft-status-bot?utm_source=github.com&utm_medium=referral&utm_content=AugusDogus/minecraft-status-bot&utm_campaign=Badge_Grade) ![GitHub](https://img.shields.io/github/license/AugusDogus/minecraft-status-bot?color=blue) [![ko-fi](https://img.shields.io/badge/Buy%20me%20a-Coffee-brightgreen)](https://ko-fi.com/augusdogus)
 
 ---
 
